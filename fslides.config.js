@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'security-pitch',
+  name: 'security-pitch-oct7',
   title: 'Elastic Security',
-  repo: '0trustissues/security-pitch',   // powers slide comments (GitHub issues)
+  repo: '0trustissues/security-pitch-oct7',   // powers slide comments (GitHub issues)
   gateway: 'https://api.fslides.dev',    // sign-in broker for commenting on the published deck
   slidesDir: 'slides',
   style: 'elastic-web',
