@@ -19,6 +19,11 @@
   /* the whole shield moves as one: it drops in, then floats while it tilts */
   #stage{animation:land .9s cubic-bezier(.2,.9,.25,1.1) .3s both, bob 4.5s ease-in-out 1.5s infinite}
   @keyframes land{from{opacity:0;transform:translateY(-60px) scale(.92)}to{opacity:1;transform:none}}
+  .contact{margin-top:36px;padding-top:18px;border-top:1px solid var(--ink);max-width:420px}
+  .contact .k{font:600 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--grey)}
+  .contact .n{font:600 22px var(--sans);letter-spacing:-.5px;margin-top:8px}
+  .contact a{display:inline-block;margin-top:4px;font:500 16px var(--mono);letter-spacing:.01em;color:var(--blue);text-decoration:none;pointer-events:auto;cursor:pointer;position:relative;z-index:6}
+  .contact a:hover{text-decoration:underline}
   @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 
   #shadow{position:absolute;left:70px;right:70px;bottom:-34px;height:34px;border-radius:50%;background:rgba(30,40,80,.24);filter:blur(14px);
@@ -32,6 +37,7 @@
   <div class="eyebrow in1">Elastic Security</div>
   <h1 class="in2">Thank<br><span class="b">you.</span></h1>
   <p class="sub in3">Questions? Let's keep the conversation going.</p>
+  <div class="contact in4"><div class="k">Get in touch</div><div class="n">Kelsey Bodziner</div><a href="mailto:kelsey.bodziner@elastic.co">kelsey.bodziner@elastic.co</a></div>
 </div>
 
 <div id="stage" aria-label="Elastic Security logo">
