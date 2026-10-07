@@ -10,40 +10,40 @@ module.exports = {
   slides: [
     'cover.html',
     'team.html',
+    'search-ai-platform.html',
+    'all-your-data.html',
     'why-now.html',
     'problem-orientation.html',
     'soc-model.html',
     'answers-to-action.html',
     'senses-brain-hands.html',
-    'search-ai-platform.html',
-    'all-your-data.html',
-    'solution.html',
     'elastic-security-labs.html',
-    'unified-platform.html',
     'multi-layer-security.html',
     'esql.html',
-    'closing.html',
     'demo.html',
+    'solution.html',
+    'unified-platform.html',
+    'closing.html',
   ],
 
   // Human-readable labels for the overview panel (must match slides array length)
   labels: [
     'Cover',
     'Team',
+    'Search AI Platform',
+    'All your data',
     'Why now',
     'Problem orientation',
     'SOC operating model',
     'From answers to action',
     'Senses, brain, hands',
-    'Search AI Platform',
-    'All your data',
-    'Security solution',
     'Elastic Security Labs',
-    'Unified platform',
     'Multi-layer security',
     'ES|QL',
-    'Thank you',
     'Demo',
+    'Security solution',
+    'Unified platform',
+    'Thank you',
   ],
 
   // Optional: per-slide PDF overrides
@@ -53,5 +53,9 @@ module.exports = {
   //     extra: `document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));`
   //   }
   // },
-  disabled: [],
+  disabled: [
+    'senses-brain-hands.html',
+    'multi-layer-security.html',
+    'esql.html',
+  ],
 };
